@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/App/App.iml" filepath="$PROJECT_DIR$/App/App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainApp.iml" filepath="$PROJECT_DIR$/MainApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erureka/erureka.iml" filepath="$PROJECT_DIR$/erureka/erureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notificationService/notificationService.iml" filepath="$PROJECT_DIR$/notificationService/notificationService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-api-gateway/springboot-api-gateway.iml" filepath="$PROJECT_DIR$/springboot-api-gateway/springboot-api-gateway.iml" />
+    </modules>
+  </component>
+</project>

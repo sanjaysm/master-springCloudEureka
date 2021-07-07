@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="App" />
+        <module name="erureka" />
+        <module name="springboot-api-gateway" />
+        <module name="spring-security" />
+        <module name="notificationService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="App" target="1.8" />
+      <module name="erureka" target="1.8" />
+      <module name="MainApp" target="1.5" />
+      <module name="notificationService" target="1.8" />
+      <module name="spring-security" target="1.8" />
+      <module name="springboot-api-gateway" target="1.8" />
+      <module name="Test" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="App" options="-parameters" />
+      <module name="erureka" options="-parameters" />
+      <module name="notificationService" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
+      <module name="springboot-api-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

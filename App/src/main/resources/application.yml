@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dev01
+    username: root
+    password: root
+
+
+  jpa:
+    #hibernate.ddl-auto: update
+    generate-ddl: true
+    #show-sql: true
+    #hibernate.naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  application:
+    name: AppService
+eureka:
+  client:
+    service-url:
+      default: http://localhost:8761/eureka/
+      
+
+server:
+  port: 8089
+
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude:
+
+        
+
+logging:
+  level:
+    org.springframework: TRACE
+    
+    
+    
+         
